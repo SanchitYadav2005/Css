@@ -1,0 +1,29 @@
+/*this is an universal seceltor*/
+*{
+    background-color: #ccd5ae;
+    color: white;
+}
+
+/*this is an element selector*/
+p{
+    color: #219ebc;
+}
+
+/*this is an id selector*/
+#main-heading{
+    text-align: center;
+    color: #ffb703;
+    font-size: 100px;
+}
+
+/*this is a class selector*/
+.para{
+    font-size: 50px;
+    text-align: right;
+}
+
+/*this is how you select the element that is nestes inside the element*/
+ul li{
+    color: #f72585;
+}
+
