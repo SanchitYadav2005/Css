@@ -1,7 +1,7 @@
 /*this is an universal seceltor*/
 *{
     background-color: #ccd5ae;
-    color: white;
+    color: black;
 }
 
 /*this is an element selector*/
@@ -18,7 +18,7 @@ p{
 
 /*this is a class selector*/
 .para{
-    font-size: 50px;
+    font-size: 20px;
     text-align: right;
 }
 
@@ -26,4 +26,38 @@ p{
 ul li{
     color: #f72585;
 }
+/*this is adjent selector*/
+h2 + button{
+    background-color: red;
+    font-size: 50px;
+}
+/*this is direct child selector*/
+footer > h2{
+    color: blueviolet;
+}
+/*attribute selector*/
+input[type="text"]{
+    color: red;
+}
 
+/*pseudo classes*/
+
+button:hover{
+    background-color: #4895ef;
+}
+button:active{
+    background-color: #3a0ca3;
+}
+
+.para:nth-of-type(2n){
+    color: #6930c3;
+}
+
+p::first-letter{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+::selection{
+    background-color: #ffadad;
+}
