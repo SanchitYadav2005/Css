@@ -1,0 +1,15 @@
+h1{
+    border: 5px solid #03071e;
+    width: 100px;
+    text-align: center;
+    margin-left: 45%;
+}
+
+div p{
+    color: #001524;
+    margin-top: 45px;
+    border-top: 5px solid #219ebc;
+    padding: 45px;
+    width: 400px;
+    margin-left: 33%;
+}
