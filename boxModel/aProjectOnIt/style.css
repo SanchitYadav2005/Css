@@ -1,0 +1,21 @@
+div{
+    background-color: salmon;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 55px;
+    border: 3px solid red;
+    background-color: white;
+}
+
+img:hover{
+    background-color: teal;
+}
+
+img:nth-of-type(2n){
+    border-radius: 30px 0 34px 0;
+}
