@@ -1,0 +1,39 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin: 50px;
+    display: inline-block;
+}
+
+.middle{
+    background-color: red;
+}
+
+.static .middle{
+    position: static;
+}
+
+.relative .middle{
+    position: relative;
+    top: 40px;
+    left: 400px;
+}
+.absloute{
+    position: relative;
+}
+.absloute .middle{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.fixed .middle{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.sticky .middle{
+    position: sticky;
+
+}
